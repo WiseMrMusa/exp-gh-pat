@@ -21,7 +21,7 @@ jobs:
         id: auth-check
         run: |
           ACTOR="${{ github.actor }}"
-          AUTHORIZED_USERS="wisemrmusa" 
+          AUTHORIZED_USERS="WiseMrMusa" 
           
           if echo "$AUTHORIZED_USERS" | grep -q "$ACTOR"; then
             echo "✅ User $ACTOR is authorized"
